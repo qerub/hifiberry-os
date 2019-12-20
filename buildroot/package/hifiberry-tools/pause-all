@@ -87,7 +87,7 @@ check_paused
 
 # Use API to pause
 curl -X post http://localhost:81/api/player/pause ; echo
-for i in 1 1 1 1 1 1 1 1; do 
+for i in 1 1 1 1 1; do 
  sleep $i
  check_paused
 done
