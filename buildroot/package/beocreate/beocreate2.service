@@ -2,7 +2,7 @@
 Description=Beocreate 2 Server
 Documentation=https://github.com/bang-olufsen/create/
 Wants=audiocontrol2.service
-After=network.target sigmatcp.service audiocontrol2.service
+After=network.target sigmatcp.service audiocontrol2.service configure-players.service
 Before=hifiberry.target
 
 [Service]
