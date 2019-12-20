@@ -1,3 +1,7 @@
+20191220
+- Bugfix for hanging setup process
+- Bugfix for non-responsive DSP server
+
 20191219
 - allow actiating another source from the "Now Playing" screen
 - added Snapcast source (experimental)
