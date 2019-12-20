@@ -20,5 +20,16 @@ if [ "$2" != "" ]; then
  rm -rf $BRDIR/build/$2*
 fi
 
+if [ -f $MYDIR/notify ]; then
+ $MYDIR/notify begin
+else
+ echo "No notify script"
+fi
+
 cd ../buildroot
 make O=$BRDIR BR2_EXTERNAL=../hifiberry-os/buildroot
+if [ -f $MYDIR/notify ]; then
+ $MYDIR/notify finish
+else
+ echo "No notify script"
+fi
