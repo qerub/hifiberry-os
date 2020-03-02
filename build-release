@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 if [ "$1" == "" ]; then
  echo Command line argumnents: piversion [timestamp]
  exit 1

@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 cd `dirname $0`
 MYDIR=`pwd`
 TS=`date +%Y%m%d`

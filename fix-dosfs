@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -e
 if [ ! -f "$1" ]; then
 	echo call with $0 smcardimage
 	exit 1

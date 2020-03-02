@@ -1,3 +1,4 @@
 #!/bin/sh
+set -e
 sudo apt-get install make unzip g++ libasound-dev
 sudo python3 -m pip install hifiberrydsp
