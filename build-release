@@ -13,7 +13,7 @@ fi
 
 cd `dirname $0`
 clear
-echo Buildung for Raspberry Pi $1
+echo Building for Raspberry Pi $1
 echo ============================
 echo
 ./build-config $1

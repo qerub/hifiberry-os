@@ -54,16 +54,17 @@ This is often the easiest way if you want to integrate it into other systems, e.
 
 ### Extending audiocontrol
 
-Audiocontrol provides a [plugin system](https://github.com/hifiberry/audiocontrol2/blob/master/doc/extensions.md) that can be used to add more complex integrations.Also have a look at the ["Anatomy of a controller plugin"](https://github.com/hifiberry/audiocontrol2/blob/master/doc/rotary-controller-plugin.md)
+Audiocontrol provides a [plugin system](https://github.com/hifiberry/audiocontrol2/blob/master/doc/extensions.md) that can be used to add more complex integrations. Also have a look at the ["Anatomy of a controller plugin"](https://github.com/hifiberry/audiocontrol2/blob/master/doc/rotary-controller-plugin.md).
 
 ### Adding packages
 
-HiFiBerryOS is based on buildroot. This means, you can't easily install additional software from command line. Even if you do, it will be gone after the next update as an update will replace the full filesystem. You need top integrate additonal software via the [Buildroot build system](https://buildroot.org/)
+HiFiBerryOS is based on buildroot. This means, you can't easily install additional software from command line. Even if you do, it will be gone after the next update as an update will replace the full filesystem. You need top integrate additonal software via the [Buildroot build system](https://buildroot.org/).
 
 ### Adding UI components
 
-The UI also uses a plugin concept. Plugins are called extensions. Have a look at the [Beocreate documentation](https://github.com/bang-olufsen/create/tree/master/Documentation)
+The UI also uses a plugin concept. Plugins are called extensions. Have a look at the [Beocreate documentation](https://github.com/bang-olufsen/create/tree/master/Documentation).
 
 ## Contributions
-We're looking forward to your contributions. Depending on functionality and code quality, we will decide if a contribution will be included in the base system or will be provided as a user-contributed module that users need to install by themselve.
+
+We're looking forward to your contributions. Depending on functionality and code quality, we will decide if a contribution will be included in the base system or will be provided as a user-contributed module that users need to install by themselves.
 
