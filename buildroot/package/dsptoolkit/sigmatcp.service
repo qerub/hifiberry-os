@@ -6,7 +6,7 @@ After=network.target
 [Service]
 Type=notify
 ExecStartPre=/opt/hifiberry/bin/bootmsg "Starting DSP server"
-ExecStart=/usr/bin/sigmatcpserver --alsa  ${SIGMATCPSERVER_ARGS}
+ExecStart=/usr/bin/sigmatcpserver --alsa
 ExecStartPost=/bin/sleep 3
 StandardOutput=journal
 Restart=always
